@@ -91,7 +91,7 @@ Orders can be identified using the following:
 
 | Identifier    | Parameter | DB column              | Example call                             |
 |---------------|-----------|------------------------|------------------------------------------|
-| Order Id      | id        | s_orders.id            | /api/orders/2                            |
-| Order Number  | number    | s_orders.number        | /api/orders/20003?useNumberAsId=true     |
+| Order Id      | id        | s_order.id             | /api/orders/2                            |
+| Order Number  | number    | s_order.number         | /api/orders/20003?useNumberAsId=true     |
 
 The data structure used is similar to the one returned in the`GET` request.
